@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+            margin: 0 auto;
+        }
+
+        button {
+            width: 695px;
+            height: 680px;
+            background-image: url(./02.jpg);
+            transform: scale(0.5);
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <button></button>
+    </div>
+    <script>
+        let pic = document.querySelector('div')
+        let btn = document.querySelector('button')
+        btn.addEventListener('click',function () {
+            alert('是毛诗野')
+        })
+    </script>
+</body>
+</html>
